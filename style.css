@@ -14,7 +14,7 @@ body {
 header {
     display: flex;
     flex-direction: column;
-    background-image: url(img/snmarc.jpg); /* WHY ISN'T IT WORKING!!! */
+    background-image: url(img/snmarc.jpg);
     background-color: black;
     background-position: center;
     background-repeat: no-repeat;

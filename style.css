@@ -1,0 +1,146 @@
+/* font-family: 'Fira Sans', sans-serif;
+font-family: 'Noto Serif', serif; */
+
+/* MOBILE FIRST */
+
+body {
+    margin: 0 auto;
+}
+
+.navContainer2 {
+    display: none;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-image: url(img/snmarc.jpg);
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header>h1 {
+    align-self: center;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 18vh;
+    color: white;
+    text-shadow: -1px 0 black, 0 5px black, 1px 0 black, 0 -1px black;
+    margin: -5px auto;
+}
+
+header>p {
+    align-self: center;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 4vh;
+    font-weight: bold;
+    color: yellow;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.navContainer, footer {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.navContainer>a {
+    color: white;
+    margin: 15px;
+    font-style: italic;
+    padding: 0 5px;
+}
+
+.card {
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+img {
+    border-radius: 3%;
+    margin: 15px auto;
+    width: 45vh;
+}
+
+h4 {
+    color: yellow;
+    font-weight: bolder;
+}
+
+.italy {
+    background: black;
+}
+
+footer {
+    justify-content: space-around;
+}
+
+.greyFooter {
+    margin: 15px auto;
+    color: #21211F;
+}
+
+.yellowFooter {
+    margin: 15px auto;
+    color: yellow;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:active {
+    color: hotpink;
+}
+
+a:hover {
+    background: white;
+    color: black;
+    text-decoration: none;
+}
+
+/* DESKTOP */
+
+@media screen and (min-width: 992px) {
+    img {
+        width: 90%;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr;
+    }
+
+    a {
+        display: none;
+    }
+
+    .navContainer2 {
+        display: flex;
+    }
+
+    .navContainer2 {
+        display: flex;
+        justify-content: space-around;
+        background-color: black;
+        color: white;
+        border-bottom: 1px solid white;
+    }
+
+    .navContainer2>p {
+        color: white;
+        margin: 15px;
+        font-style: italic;
+        padding: 0 5px;
+    }
+
+}

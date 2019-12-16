@@ -11,6 +11,13 @@ body {
     display: none;
 }
 
+.navContainer {
+    position: sticky;
+    z-index: 2;
+    top: 0;
+}
+
+
 header {
     display: flex;
     flex-direction: column;
@@ -72,10 +79,6 @@ h4 {
     font-weight: bolder;
 }
 
-.italy {
-    background: black;
-}
-
 footer {
     justify-content: space-around;
 }
@@ -125,10 +128,9 @@ a:hover {
     }
 
     .navContainer2 {
-        display: flex;
-    }
-
-    .navContainer2 {
+        position: sticky;
+        z-index: 2;
+        top: 0;
         display: flex;
         justify-content: space-around;
         background-color: black;
